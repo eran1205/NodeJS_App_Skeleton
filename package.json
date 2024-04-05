@@ -47,13 +47,5 @@
     "hooks": {
       "pre-commit": "npm run lint"
     }
-  },
-  "lint-staged": {
-    "*.js": 
-    [
-      "eslint — fix",
-      "prettier — write",
-      "git add"
-    ]
   }
 }
