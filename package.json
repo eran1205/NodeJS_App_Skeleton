@@ -9,10 +9,7 @@
     "dev": "nodemon src/index.ts",
     "lint": "eslint src/**/*.ts",
     "lint-fix": "eslint --fix src/**/*.ts",
-    "pretty": "prettier --write src//**/*.{ts,js,jsx,json}",
-    "prepare": "husky",
-    "pre-commit": "npm run lint-fix && npm run pretty",
-    "pre-push": "npm run lint"
+    "pretty": "prettier --write src//**/*.{ts,js,jsx,json}"
   },
   "repository": {
     "type": "git",
