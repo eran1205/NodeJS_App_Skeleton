@@ -45,11 +45,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run lint"
     }
   },
   "lint-staged": {
-    "*.ts": 
+    "*.js": 
     [
       "eslint — fix",
       "prettier — write",
