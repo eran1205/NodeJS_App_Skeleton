@@ -12,7 +12,7 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.get('/health', (req: Request, res: Response) => {
-    res.send('MS is alive')
+    res.send('MS is alive');
 });
 
 app.listen(port, () => {
